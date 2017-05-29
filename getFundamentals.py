@@ -19,7 +19,7 @@ STOCK_LIST_FILENAME = './stocklist.txt'
 FIVE_YEAR_FUNDAMENTALS_FNAME = './five_year_500.csv'
 
 # the names of the fundamentals we want to scrape
-FUNDAMENTAL_CATEGORIES = ['P%2FE']
+FUNDAMENTAL_CATEGORIES = ['market cap', 'revenue', 'employees', 'revenue%2Femployee', 'net income', 'shares outstanding', 'annual earnings%2FEshare', 'P%2FE ratio']
 
 # global stock symbol list that should be read in from ./stocklist.txt
 stockSymbols = []
