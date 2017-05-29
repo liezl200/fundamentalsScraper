@@ -100,4 +100,8 @@ ENV/
 # mypy
 .mypy_cache/
 
+# Wolfram login info
 userinfo.txt
+
+# don't upload data
+rawCSV/

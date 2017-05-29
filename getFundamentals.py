@@ -59,7 +59,7 @@ def readUserInfoFromFile(fname):
     lineList = [x.strip() for x in lines]
     return lineList[0], lineList[1]
 
-def signIn(userInfoFilename):
+def signIntoWolfram(userInfoFilename):
   # get user's login info
   username, password = readUserInfoFromFile(userInfoFilename)
 
@@ -103,12 +103,16 @@ def downloadOneFundamentalCSV(symbol, fundamental):
   finalDownload.click()
   time.sleep(15)
 
+def downloadFundamentalCSVs(stockSymbols):
+  for symbol in stockSymbols:
+    for fundamental in FUNDAMENTAL_CATEGORIES:
+      try:
+        downloadOneFundamentalCSV(symbol, fundamental)
+      except:
+        print 'failed to download ', symbol, fundamental
+    print 'finished downloading ' + symbol
+
+signIntoWolfram('userinfo.txt')
 stockSymbols = readListFromFile(STOCK_LIST_FILENAME)
-signIn('userinfo.txt')
-for symbol in stockSymbols:
-  for fundamental in FUNDAMENTAL_CATEGORIES:
-    try:
-      downloadOneFundamentalCSV(symbol, fundamental)
-    except:
-      print 'failed to download ', symbol, fundamental
-  print 'finished downloading ' + symbol
+# downloadFundamentalCSVs(stockSymbols) # if already downloaded, comment this out
+
