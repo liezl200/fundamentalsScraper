@@ -19,7 +19,11 @@ STOCK_LIST_FILENAME = './stocklist.txt'
 FIVE_YEAR_FUNDAMENTALS_FNAME = './five_year_500.csv'
 
 # the names of the fundamentals we want to scrape
-FUNDAMENTAL_CATEGORIES = ['market cap', 'revenue', 'employees', 'revenue%2Femployee', 'net income', 'shares outstanding', 'annual earnings%2FEshare', 'P%2FE ratio']
+# we can calculate:
+#   PE Ratio * Net Income = Market Cap
+#   revenue/employee
+#   net income / shares outstanding = annual earnings / share
+FUNDAMENTAL_CATEGORIES = ['revenue', 'employees', 'net income', 'shares outstanding', 'P%2FE ratio']
 
 # global stock symbol list that should be read in from ./stocklist.txt
 stockSymbols = []
@@ -101,11 +105,10 @@ def downloadOneFundamentalCSV(symbol, fundamental):
 
 stockSymbols = readListFromFile(STOCK_LIST_FILENAME)
 signIn('userinfo.txt')
-for symbol in stockSymbols:
-  for fundamental in FUNDAMENTAL_CATEGORIES:
+for fundamental in FUNDAMENTAL_CATEGORIES:
+  for symbol in stockSymbols:
     try:
       downloadOneFundamentalCSV(symbol, fundamental)
     except:
       print 'failed to download ', symbol, fundamental
-
-
+  print 'finished downloading ' + fundamental
