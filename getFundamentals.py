@@ -158,5 +158,8 @@ signIntoWolfram('userinfo.txt')
 stockSymbols = readListFromFile(STOCK_LIST_FILENAME)
 # downloadFundamentalCSVs(stockSymbols) # if already downloaded, comment this out
 retrySymbols = readListFromFile(STOCK_LIST_FILENAME)
+trynum = 2
 while not retryDownloads(retrySymbols): # keep trying
+  'Retrying all downloads --- try # ' + trynum
+  trynum += 1
   continue
