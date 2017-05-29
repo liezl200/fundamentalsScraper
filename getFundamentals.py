@@ -23,17 +23,17 @@ def readUserInfoFromFile(fname):
     return lineList[0], lineList[1]
 
 def signIn(userInfoFilename):
-	# get user's login info
-	username, password = readUserInfoFromFile(userInfoFilename)
+  # get user's login info
+  username, password = readUserInfoFromFile(userInfoFilename)
 
-	# input login info into the login form
-	driver.get('https://account.wolfram.com/auth/sign-in')
-	userField = driver.find_element_by_xpath('//*[@id="email"]/input')
-	userField.send_keys(username)
-	passwordField = driver.find_element_by_xpath('//*[@id="password"]/input')
-	passwordField.send_keys(password)
-	signInBtn = driver.find_element_by_xpath('//*[@id="sign-in-btn"]')
-	signInBtn.click()
+  # input login info into the login form
+  driver.get('https://account.wolfram.com/auth/sign-in')
+  userField = driver.find_element_by_xpath('//*[@id="email"]/input')
+  userField.send_keys(username)
+  passwordField = driver.find_element_by_xpath('//*[@id="password"]/input')
+  passwordField.send_keys(password)
+  signInBtn = driver.find_element_by_xpath('//*[@id="sign-in-btn"]')
+  signInBtn.click()
 
 signIn('userinfo.txt')
 
@@ -49,11 +49,11 @@ hover.perform()
 
 dldata = driver.find_elements_by_xpath('//*[contains(text(), "Data")]') # last element found in the list is the true Download Data button
 for dl in dldata:
-	try:
-		dl.click()
-	except:
-		pass
-		# print 'failed clicking on element ', dl # uncomment for debugging only
+  try:
+    dl.click()
+  except:
+    pass
+    # print 'failed clicking on element ', dl # uncomment for debugging only
 
 selectCSV = driver.find_element_by_xpath('//*[@id="exportpod-pricing"]/div[1]/select/option[4]')
 selectCSV.click()
