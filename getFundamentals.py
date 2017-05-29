@@ -84,7 +84,7 @@ def downloadOneFundamentalCSV(symbol, fundamental):
     pass
   time.sleep(15) # wait 20 seconds for queried page to render
   driver.execute_script('window.scrollTo(0, document.body.scrollHeight);')
-  footer = driver.find_element_by_xpath('//*[@id="HistoryQuarterly:PriceEarningsRatio:FinancialData"]/section/div[1]')
+  footer = driver.find_element_by_xpath('//*[contains(@id, "HistoryQuarterly")]')
   hover = ActionChains(driver).move_to_element(footer)
   hover.perform()
 
@@ -105,10 +105,9 @@ def downloadOneFundamentalCSV(symbol, fundamental):
 
 stockSymbols = readListFromFile(STOCK_LIST_FILENAME)
 signIn('userinfo.txt')
-for fundamental in FUNDAMENTAL_CATEGORIES:
-  for symbol in stockSymbols:
-    try:
-      downloadOneFundamentalCSV(symbol, fundamental)
-    except:
-      print 'failed to download ', symbol, fundamental
-  print 'finished downloading ' + fundamental
+for symbol in stockSymbols:
+  for fundamental in FUNDAMENTAL_CATEGORIES:
+    downloadOneFundamentalCSV(symbol, fundamental)
+    # except:
+    #   print 'failed to download ', symbol, fundamental
+  print 'finished downloading ' + symbol
