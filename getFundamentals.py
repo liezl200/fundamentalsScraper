@@ -36,6 +36,18 @@ driver = webdriver.Chrome(chromedriver)
 '''
 FUNCTIONS
 '''
+# makes a new directory if it doesn't exist
+def makeDir(directory):
+  if not os.path.exists(directory):
+    os.makedirs(directory)
+
+# read every line into a list of lines from fname, then return the list
+def readListFromFile(fname):
+  with open(fname) as f:
+    lines = f.readlines()
+    lineList = [x.strip() for x in lines]
+    return lineList
+
 # file should have username on first line then password on second line
 def readUserInfoFromFile(fname):
   with open(fname) as f:
@@ -60,10 +72,13 @@ def signIn(userInfoFilename):
 def downloadOneFundamentalCSV(symbol, fundamental):
   # get URL with corresponding symbol + desired fundamental query
   driver.get('https://www.wolframalpha.com/input/?i=' + symbol + '+' + fundamental)
-  # have to click the Sign In button anytime we use driver.get() because Wolfram is bad at cookies
-  signInBtn2 = driver.find_element_by_xpath('//*[@id="wa-user-menu"]/button[1]')
-  signInBtn2.click()
-  time.sleep(20) # wait 20 seconds for queried page to render
+  try:
+    # have to click the Sign In button anytime we use driver.get() because Wolfram is bad at cookies
+    signInBtn2 = driver.find_element_by_xpath('//*[@id="wa-user-menu"]/button[1]')
+    signInBtn2.click()
+  except:
+    pass
+  time.sleep(15) # wait 20 seconds for queried page to render
   driver.execute_script('window.scrollTo(0, document.body.scrollHeight);')
   footer = driver.find_element_by_xpath('//*[@id="HistoryQuarterly:PriceEarningsRatio:FinancialData"]/section/div[1]')
   hover = ActionChains(driver).move_to_element(footer)
@@ -82,9 +97,15 @@ def downloadOneFundamentalCSV(symbol, fundamental):
 
   finalDownload = driver.find_element_by_xpath('//*[@id="signin-dl"]')
   finalDownload.click()
+  time.sleep(15)
 
-
+stockSymbols = readListFromFile(STOCK_LIST_FILENAME)
 signIn('userinfo.txt')
-downloadOneFundamentalCSV('GOOG', 'P%2FE')
+for symbol in stockSymbols:
+  for fundamental in FUNDAMENTAL_CATEGORIES:
+    try:
+      downloadOneFundamentalCSV(symbol, fundamental)
+    except:
+      print 'failed to download ', symbol, fundamental
 
 
