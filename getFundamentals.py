@@ -107,7 +107,8 @@ stockSymbols = readListFromFile(STOCK_LIST_FILENAME)
 signIn('userinfo.txt')
 for symbol in stockSymbols:
   for fundamental in FUNDAMENTAL_CATEGORIES:
-    downloadOneFundamentalCSV(symbol, fundamental)
-    # except:
-    #   print 'failed to download ', symbol, fundamental
+    try:
+      downloadOneFundamentalCSV(symbol, fundamental)
+    except:
+      print 'failed to download ', symbol, fundamental
   print 'finished downloading ' + symbol
