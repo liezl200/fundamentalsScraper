@@ -3,18 +3,39 @@ import os
 import sys
 import time
 import tkMessageBox
-print sys.path
 from selenium import webdriver
 from selenium.webdriver.common.action_chains import ActionChains
 
-# CHROME DRIVER INSTRUCTIONS
-# Download the latest chromedriver from https://sites.google.com/a/chromium.org/chromedriver/downloads
-# Extract the chromedriver and then update the below path to point to the chromedriver executable
-# Current version I'm using: https://chromedriver.storage.googleapis.com/2.29/chromedriver_mac64.zip
+'''
+GLOBAL CONSTANTS AND VARIABLES
+'''
+# where all the CSV files will go
+STOCK_DIR = './rawCSV/'
+
+# should be a file that has one stock symbol per line
+STOCK_LIST_FILENAME = './stocklist.txt'
+
+# file for the output csv
+FIVE_YEAR_FUNDAMENTALS_FNAME = './five_year_500.csv'
+
+# the names of the fundamentals we want to scrape
+FUNDAMENTAL_CATEGORIES = ['P%2FE']
+
+# global stock symbol list that should be read in from ./stocklist.txt
+stockSymbols = []
+
+# global list of dates
+dateLabels = []
+
+# see README for chromedriver instructions
 chromedriver = "/Users/liezl/Desktop/Code/chromedriver"
 os.environ["webdriver.chrome.driver"] = chromedriver
 driver = webdriver.Chrome(chromedriver)
 
+
+'''
+FUNCTIONS
+'''
 # file should have username on first line then password on second line
 def readUserInfoFromFile(fname):
   with open(fname) as f:
@@ -35,28 +56,35 @@ def signIn(userInfoFilename):
   signInBtn = driver.find_element_by_xpath('//*[@id="sign-in-btn"]')
   signInBtn.click()
 
+# usage: downloadOneFundamentalCSV('GOOG', 'P%2FE')
+def downloadOneFundamentalCSV(symbol, fundamental):
+  # get URL with corresponding symbol + desired fundamental query
+  driver.get('https://www.wolframalpha.com/input/?i=' + symbol + '+' + fundamental)
+  # have to click the Sign In button anytime we use driver.get() because Wolfram is bad at cookies
+  signInBtn2 = driver.find_element_by_xpath('//*[@id="wa-user-menu"]/button[1]')
+  signInBtn2.click()
+  time.sleep(20) # wait 20 seconds for queried page to render
+  driver.execute_script('window.scrollTo(0, document.body.scrollHeight);')
+  footer = driver.find_element_by_xpath('//*[@id="HistoryQuarterly:PriceEarningsRatio:FinancialData"]/section/div[1]')
+  hover = ActionChains(driver).move_to_element(footer)
+  hover.perform()
+
+  dldata = driver.find_elements_by_xpath('//*[contains(text(), "Data")]') # last element found in the list is the true Download Data button
+  for dl in dldata:
+    try:
+      dl.click()
+    except:
+      pass
+      # print 'failed clicking on element ', dl # uncomment for debugging only
+
+  selectCSV = driver.find_element_by_xpath('//*[@id="exportpod-pricing"]/div[1]/select/option[4]')
+  selectCSV.click()
+
+  finalDownload = driver.find_element_by_xpath('//*[@id="signin-dl"]')
+  finalDownload.click()
+
+
 signIn('userinfo.txt')
+downloadOneFundamentalCSV('GOOG', 'P%2FE')
 
-driver.get('https://www.wolframalpha.com/input/?i=GOOG+P%2FE')
-# have to click the Sign In button anytime we use driver.get() because Wolfram is bad at cookies
-signInBtn2 = driver.find_element_by_xpath('//*[@id="wa-user-menu"]/button[1]')
-signInBtn2.click()
-time.sleep(20) # wait for queried page to render
-driver.execute_script('window.scrollTo(0, document.body.scrollHeight);')
-footer = driver.find_element_by_xpath('//*[@id="HistoryQuarterly:PriceEarningsRatio:FinancialData"]/section/div[1]')
-hover = ActionChains(driver).move_to_element(footer)
-hover.perform()
 
-dldata = driver.find_elements_by_xpath('//*[contains(text(), "Data")]') # last element found in the list is the true Download Data button
-for dl in dldata:
-  try:
-    dl.click()
-  except:
-    pass
-    # print 'failed clicking on element ', dl # uncomment for debugging only
-
-selectCSV = driver.find_element_by_xpath('//*[@id="exportpod-pricing"]/div[1]/select/option[4]')
-selectCSV.click()
-
-finalDownload = driver.find_element_by_xpath('//*[@id="signin-dl"]')
-finalDownload.click()
