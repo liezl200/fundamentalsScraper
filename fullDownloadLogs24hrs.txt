@@ -1,0 +1,819 @@
+finished downloading ACN
+finished downloading ATVI
+finished downloading AYI
+finished downloading ADBE
+failed to download  AMD revenue
+finished downloading AMD
+finished downloading AAP
+finished downloading AES
+finished downloading AET
+finished downloading AMG
+finished downloading AFL
+failed to download  A revenue
+failed to download  A employees
+failed to download  A net income
+failed to download  A shares outstanding
+failed to download  A P%2FE ratio
+finished downloading A
+failed to download  APD revenue
+finished downloading APD
+finished downloading AKAM
+finished downloading ALK
+finished downloading ALB
+failed to download  ARE revenue
+failed to download  ARE employees
+failed to download  ARE net income
+failed to download  ARE shares outstanding
+failed to download  ARE P%2FE ratio
+finished downloading ARE
+finished downloading AGN
+failed to download  LNT P%2FE ratio
+finished downloading LNT
+finished downloading ALXN
+finished downloading ALLE
+failed to download  ADS revenue
+failed to download  ADS net income
+finished downloading ADS
+failed to download  ALL revenue
+failed to download  ALL employees
+failed to download  ALL shares outstanding
+failed to download  ALL P%2FE ratio
+finished downloading ALL
+finished downloading GOOGL
+finished downloading GOOG
+failed to download  MO revenue
+failed to download  MO employees
+failed to download  MO net income
+failed to download  MO shares outstanding
+failed to download  MO P%2FE ratio
+finished downloading MO
+finished downloading AMZN
+finished downloading AEE
+finished downloading AAL
+finished downloading AEP
+finished downloading AXP
+finished downloading AIG
+failed to download  AMT employees
+failed to download  AMT shares outstanding
+failed to download  AMT P%2FE ratio
+finished downloading AMT
+finished downloading AWK
+failed to download  AMP P%2FE ratio
+finished downloading AMP
+failed to download  ABC P%2FE ratio
+finished downloading ABC
+failed to download  AME P%2FE ratio
+finished downloading AME
+finished downloading AMGN
+finished downloading APH
+finished downloading APC
+finished downloading ADI
+finished downloading ANTM
+finished downloading AON
+finished downloading APA
+finished downloading AIV
+finished downloading AAPL
+finished downloading AMAT
+finished downloading ADM
+failed to download  ARNC revenue
+failed to download  ARNC employees
+failed to download  ARNC net income
+failed to download  ARNC P%2FE ratio
+finished downloading ARNC
+finished downloading AJG
+finished downloading AIZ
+failed to download  T revenue
+failed to download  T employees
+failed to download  T net income
+failed to download  T shares outstanding
+failed to download  T P%2FE ratio
+finished downloading T
+finished downloading ADSK
+finished downloading ADP
+failed to download  AN revenue
+failed to download  AN employees
+failed to download  AN net income
+failed to download  AN shares outstanding
+failed to download  AN P%2FE ratio
+finished downloading AN
+finished downloading AZO
+finished downloading AVB
+finished downloading AVY
+finished downloading BHI
+finished downloading BLL
+finished downloading BAC
+finished downloading BK
+finished downloading BCR
+finished downloading BAX
+finished downloading BBT
+finished downloading BDX
+finished downloading BBBY
+finished downloading BRK.B
+finished downloading BBY
+finished downloading BIIB
+finished downloading BLK
+finished downloading HRB
+finished downloading BA
+finished downloading BWA
+finished downloading BXP
+finished downloading BSX
+finished downloading BMY
+finished downloading AVGO
+failed to download  BF.B revenue
+failed to download  BF.B employees
+failed to download  BF.B net income
+failed to download  BF.B shares outstanding
+failed to download  BF.B P%2FE ratio
+finished downloading BF.B
+finished downloading CHRW
+failed to download  CA revenue
+failed to download  CA employees
+failed to download  CA net income
+failed to download  CA shares outstanding
+failed to download  CA P%2FE ratio
+finished downloading CA
+failed to download  COG net income
+failed to download  COG shares outstanding
+failed to download  COG P%2FE ratio
+finished downloading COG
+finished downloading CPB
+failed to download  COF employees
+finished downloading COF
+failed to download  CAH P%2FE ratio
+finished downloading CAH
+failed to download  CBOE employees
+finished downloading CBOE
+failed to download  KMX P%2FE ratio
+finished downloading KMX
+failed to download  CCL P%2FE ratio
+finished downloading CCL
+failed to download  CAT P%2FE ratio
+finished downloading CAT
+finished downloading CBG
+finished downloading CBS
+finished downloading CELG
+finished downloading CNC
+finished downloading CNP
+finished downloading CTL
+finished downloading CERN
+failed to download  CF revenue
+failed to download  CF employees
+failed to download  CF P%2FE ratio
+finished downloading CF
+finished downloading SCHW
+finished downloading CHTR
+failed to download  CHK net income
+finished downloading CHK
+finished downloading CVX
+finished downloading CMG
+failed to download  CB P%2FE ratio
+finished downloading CB
+finished downloading CHD
+finished downloading CI
+finished downloading XEC
+finished downloading CINF
+finished downloading CTAS
+finished downloading CSCO
+failed to download  C revenue
+failed to download  C employees
+failed to download  C net income
+failed to download  C shares outstanding
+failed to download  C P%2FE ratio
+finished downloading C
+finished downloading CFG
+finished downloading CTXS
+finished downloading CLX
+finished downloading CME
+failed to download  CMS P%2FE ratio
+finished downloading CMS
+finished downloading COH
+finished downloading KO
+finished downloading CTSH
+failed to download  CL revenue
+failed to download  CL employees
+failed to download  CL net income
+failed to download  CL shares outstanding
+failed to download  CL P%2FE ratio
+finished downloading CL
+finished downloading CMCSA
+finished downloading CMA
+finished downloading CAG
+finished downloading CXO
+failed to download  COP revenue
+failed to download  COP net income
+finished downloading COP
+failed to download  ED revenue
+failed to download  ED employees
+failed to download  ED net income
+failed to download  ED shares outstanding
+failed to download  ED P%2FE ratio
+finished downloading ED
+failed to download  STZ revenue
+failed to download  STZ net income
+finished downloading STZ
+failed to download  COO P%2FE ratio
+finished downloading COO
+failed to download  GLW P%2FE ratio
+finished downloading GLW
+failed to download  COST revenue
+failed to download  COST employees
+failed to download  COST net income
+failed to download  COST shares outstanding
+failed to download  COST P%2FE ratio
+finished downloading COST
+finished downloading COTY
+finished downloading CCI
+finished downloading CSRA
+finished downloading CSX
+failed to download  CMI shares outstanding
+finished downloading CMI
+finished downloading CVS
+failed to download  DHI revenue
+finished downloading DHI
+finished downloading DHR
+finished downloading DRI
+failed to download  DVA employees
+failed to download  DVA net income
+failed to download  DVA shares outstanding
+failed to download  DVA P%2FE ratio
+finished downloading DVA
+failed to download  DE revenue
+failed to download  DE employees
+failed to download  DE net income
+failed to download  DE shares outstanding
+failed to download  DE P%2FE ratio
+finished downloading DE
+finished downloading DLPH
+failed to download  DAL P%2FE ratio
+finished downloading DAL
+finished downloading XRAY
+failed to download  DVN revenue
+failed to download  DVN net income
+failed to download  DVN shares outstanding
+failed to download  DVN P%2FE ratio
+finished downloading DVN
+failed to download  DLR revenue
+finished downloading DLR
+finished downloading DFS
+finished downloading DISCA
+finished downloading DISCK
+finished downloading DISH
+finished downloading DG
+finished downloading DLTR
+failed to download  D revenue
+failed to download  D employees
+failed to download  D net income
+failed to download  D shares outstanding
+failed to download  D P%2FE ratio
+finished downloading D
+finished downloading DOV
+failed to download  DOW revenue
+failed to download  DOW employees
+failed to download  DOW net income
+failed to download  DOW shares outstanding
+failed to download  DOW P%2FE ratio
+finished downloading DOW
+finished downloading DPS
+finished downloading DTE
+finished downloading DD
+failed to download  DUK net income
+finished downloading DUK
+failed to download  DXC revenue
+failed to download  DXC employees
+failed to download  DXC net income
+failed to download  DXC shares outstanding
+failed to download  DXC P%2FE ratio
+finished downloading DXC
+failed to download  ETFC shares outstanding
+failed to download  ETFC P%2FE ratio
+finished downloading ETFC
+failed to download  EMN revenue
+failed to download  EMN employees
+failed to download  EMN net income
+finished downloading EMN
+failed to download  ETN net income
+finished downloading ETN
+finished downloading EBAY
+finished downloading ECL
+finished downloading EIX
+finished downloading EW
+finished downloading EA
+finished downloading EMR
+finished downloading ETR
+failed to download  EVHC revenue
+finished downloading EVHC
+finished downloading EOG
+failed to download  EQT P%2FE ratio
+finished downloading EQT
+finished downloading EFX
+finished downloading EQIX
+finished downloading EQR
+failed to download  ESS P%2FE ratio
+finished downloading ESS
+failed to download  EL P%2FE ratio
+finished downloading EL
+finished downloading ES
+finished downloading EXC
+failed to download  EXPE P%2FE ratio
+finished downloading EXPE
+finished downloading EXPD
+finished downloading ESRX
+failed to download  EXR net income
+finished downloading EXR
+finished downloading XOM
+finished downloading FFIV
+finished downloading FB
+finished downloading FAST
+finished downloading FRT
+finished downloading FDX
+finished downloading FIS
+finished downloading FITB
+finished downloading FE
+finished downloading FISV
+finished downloading FLIR
+finished downloading FLS
+finished downloading FLR
+finished downloading FMC
+failed to download  FL revenue
+failed to download  FL employees
+failed to download  FL net income
+failed to download  FL shares outstanding
+failed to download  FL P%2FE ratio
+finished downloading FL
+failed to download  F revenue
+failed to download  F employees
+failed to download  F net income
+failed to download  F shares outstanding
+failed to download  F P%2FE ratio
+finished downloading F
+finished downloading FTV
+finished downloading FBHS
+finished downloading BEN
+finished downloading FCX
+finished downloading GPS
+finished downloading GRMN
+failed to download  IT revenue
+failed to download  IT employees
+failed to download  IT net income
+failed to download  IT shares outstanding
+failed to download  IT P%2FE ratio
+finished downloading IT
+finished downloading GD
+finished downloading GE
+finished downloading GGP
+finished downloading GIS
+failed to download  GM P%2FE ratio
+finished downloading GM
+finished downloading GPC
+finished downloading GILD
+finished downloading GPN
+finished downloading GS
+finished downloading GT
+finished downloading GWW
+finished downloading HAL
+finished downloading HBI
+finished downloading HOG
+finished downloading HRS
+finished downloading HIG
+failed to download  HAS revenue
+failed to download  HAS employees
+failed to download  HAS net income
+failed to download  HAS shares outstanding
+failed to download  HAS P%2FE ratio
+finished downloading HAS
+finished downloading HCA
+finished downloading HCP
+failed to download  HP net income
+finished downloading HP
+finished downloading HSIC
+finished downloading HSY
+failed to download  HES P%2FE ratio
+finished downloading HES
+finished downloading HPE
+finished downloading HOLX
+finished downloading HD
+finished downloading HON
+finished downloading HRL
+finished downloading HST
+finished downloading HPQ
+finished downloading HUM
+finished downloading HBAN
+finished downloading IDXX
+finished downloading ITW
+failed to download  ILMN P%2FE ratio
+finished downloading ILMN
+finished downloading IR
+finished downloading INTC
+finished downloading ICE
+finished downloading IBM
+finished downloading INCY
+finished downloading IP
+finished downloading IPG
+finished downloading IFF
+failed to download  INTU net income
+finished downloading INTU
+finished downloading ISRG
+finished downloading IVZ
+finished downloading IRM
+finished downloading JEC
+finished downloading JBHT
+finished downloading SJM
+finished downloading JNJ
+finished downloading JCI
+finished downloading JPM
+finished downloading JNPR
+finished downloading KSU
+failed to download  K revenue
+failed to download  K employees
+failed to download  K net income
+failed to download  K shares outstanding
+failed to download  K P%2FE ratio
+finished downloading K
+finished downloading KEY
+finished downloading KMB
+failed to download  KIM revenue
+failed to download  KIM employees
+failed to download  KIM net income
+finished downloading KIM
+failed to download  KMI revenue
+failed to download  KMI employees
+failed to download  KMI net income
+failed to download  KMI shares outstanding
+failed to download  KMI P%2FE ratio
+finished downloading KMI
+finished downloading KLAC
+finished downloading KSS
+finished downloading KHC
+finished downloading KR
+failed to download  LB revenue
+failed to download  LB employees
+failed to download  LB net income
+failed to download  LB shares outstanding
+failed to download  LB P%2FE ratio
+finished downloading LB
+finished downloading LLL
+finished downloading LH
+finished downloading LRCX
+failed to download  LEG P%2FE ratio
+finished downloading LEG
+failed to download  LEN P%2FE ratio
+finished downloading LEN
+finished downloading LVLT
+finished downloading LUK
+finished downloading LLY
+failed to download  LNC P%2FE ratio
+finished downloading LNC
+finished downloading LKQ
+finished downloading LMT
+failed to download  L revenue
+failed to download  L employees
+failed to download  L net income
+failed to download  L shares outstanding
+failed to download  L P%2FE ratio
+finished downloading L
+failed to download  LOW revenue
+failed to download  LOW employees
+failed to download  LOW net income
+failed to download  LOW shares outstanding
+failed to download  LOW P%2FE ratio
+finished downloading LOW
+finished downloading LYB
+finished downloading MTB
+finished downloading MAC
+failed to download  M revenue
+failed to download  M employees
+failed to download  M net income
+failed to download  M shares outstanding
+failed to download  M P%2FE ratio
+finished downloading M
+finished downloading MNK
+finished downloading MRO
+finished downloading MPC
+failed to download  MAR revenue
+failed to download  MAR employees
+failed to download  MAR net income
+failed to download  MAR shares outstanding
+failed to download  MAR P%2FE ratio
+finished downloading MAR
+finished downloading MMC
+finished downloading MLM
+finished downloading MAS
+failed to download  MA employees
+finished downloading MA
+finished downloading MAT
+finished downloading MKC
+finished downloading MCD
+finished downloading MCK
+finished downloading MJN
+finished downloading MDT
+finished downloading MRK
+failed to download  MET P%2FE ratio
+finished downloading MET
+finished downloading MTD
+finished downloading KORS
+finished downloading MCHP
+failed to download  MU P%2FE ratio
+finished downloading MU
+finished downloading MSFT
+failed to download  MAA P%2FE ratio
+finished downloading MAA
+finished downloading MHK
+failed to download  TAP revenue
+finished downloading TAP
+finished downloading MDLZ
+finished downloading MON
+finished downloading MNST
+finished downloading MCO
+failed to download  MS revenue
+failed to download  MS employees
+failed to download  MS net income
+failed to download  MS shares outstanding
+failed to download  MS P%2FE ratio
+finished downloading MS
+failed to download  MOS revenue
+failed to download  MOS employees
+failed to download  MOS net income
+failed to download  MOS shares outstanding
+failed to download  MOS P%2FE ratio
+finished downloading MOS
+failed to download  MSI revenue
+failed to download  MSI employees
+finished downloading MSI
+finished downloading MUR
+finished downloading MYL
+finished downloading NDAQ
+failed to download  NOV revenue
+failed to download  NOV employees
+failed to download  NOV net income
+failed to download  NOV shares outstanding
+failed to download  NOV P%2FE ratio
+finished downloading NOV
+finished downloading NAVI
+failed to download  NTAP P%2FE ratio
+finished downloading NTAP
+finished downloading NFLX
+failed to download  NWL P%2FE ratio
+finished downloading NWL
+finished downloading NFX
+finished downloading NEM
+finished downloading NWSA
+finished downloading NWS
+finished downloading NEE
+finished downloading NLSN
+finished downloading NKE
+finished downloading NI
+finished downloading NBL
+finished downloading JWN
+failed to download  NSC P%2FE ratio
+finished downloading NSC
+finished downloading NTRS
+finished downloading NOC
+finished downloading NRG
+failed to download  NUE P%2FE ratio
+finished downloading NUE
+finished downloading NVDA
+finished downloading ORLY
+finished downloading OXY
+finished downloading OMC
+finished downloading OKE
+finished downloading ORCL
+failed to download  PCAR P%2FE ratio
+finished downloading PCAR
+failed to download  PH revenue
+failed to download  PH employees
+failed to download  PH net income
+failed to download  PH shares outstanding
+failed to download  PH P%2FE ratio
+finished downloading PH
+finished downloading PDCO
+finished downloading PAYX
+finished downloading PYPL
+failed to download  PNR shares outstanding
+finished downloading PNR
+failed to download  PBCT P%2FE ratio
+finished downloading PBCT
+finished downloading PEP
+failed to download  PKI net income
+finished downloading PKI
+finished downloading PRGO
+finished downloading PFE
+finished downloading PCG
+failed to download  PM revenue
+failed to download  PM employees
+failed to download  PM net income
+failed to download  PM shares outstanding
+failed to download  PM P%2FE ratio
+finished downloading PM
+finished downloading PSX
+finished downloading PNW
+finished downloading PXD
+failed to download  PNC P%2FE ratio
+finished downloading PNC
+finished downloading RL
+finished downloading PPG
+failed to download  PPL employees
+failed to download  PPL P%2FE ratio
+finished downloading PPL
+failed to download  PX net income
+finished downloading PX
+finished downloading PCLN
+finished downloading PFG
+finished downloading PG
+finished downloading PGR
+failed to download  PLD revenue
+failed to download  PLD employees
+failed to download  PLD net income
+failed to download  PLD shares outstanding
+failed to download  PLD P%2FE ratio
+finished downloading PLD
+finished downloading PRU
+finished downloading PEG
+finished downloading PSA
+finished downloading PHM
+finished downloading PVH
+finished downloading QRVO
+finished downloading PWR
+finished downloading QCOM
+finished downloading DGX
+finished downloading RRC
+finished downloading RJF
+finished downloading RTN
+failed to download  O revenue
+failed to download  O employees
+failed to download  O net income
+failed to download  O shares outstanding
+failed to download  O P%2FE ratio
+finished downloading O
+finished downloading RHT
+finished downloading REG
+failed to download  REGN P%2FE ratio
+finished downloading REGN
+finished downloading RF
+finished downloading RSG
+finished downloading RAI
+finished downloading RHI
+failed to download  ROK P%2FE ratio
+finished downloading ROK
+finished downloading COL
+finished downloading ROP
+finished downloading ROST
+finished downloading RCL
+failed to download  R revenue
+failed to download  R employees
+failed to download  R net income
+failed to download  R shares outstanding
+failed to download  R P%2FE ratio
+finished downloading R
+failed to download  CRM net income
+failed to download  CRM P%2FE ratio
+finished downloading CRM
+failed to download  SCG shares outstanding
+finished downloading SCG
+finished downloading SLB
+failed to download  SNI revenue
+failed to download  SNI employees
+failed to download  SNI net income
+failed to download  SNI shares outstanding
+failed to download  SNI P%2FE ratio
+finished downloading SNI
+finished downloading STX
+failed to download  SEE revenue
+failed to download  SEE net income
+failed to download  SEE shares outstanding
+failed to download  SEE P%2FE ratio
+finished downloading SEE
+finished downloading SRE
+finished downloading SHW
+finished downloading SIG
+finished downloading SPG
+finished downloading SWKS
+failed to download  SLG P%2FE ratio
+finished downloading SLG
+finished downloading SNA
+failed to download  SO net income
+failed to download  SO P%2FE ratio
+finished downloading SO
+failed to download  LUV P%2FE ratio
+finished downloading LUV
+finished downloading SPGI
+failed to download  SWK net income
+finished downloading SWK
+finished downloading SPLS
+finished downloading SBUX
+finished downloading STT
+finished downloading SRCL
+finished downloading SYK
+finished downloading STI
+finished downloading SYMC
+finished downloading SYF
+failed to download  SNPS shares outstanding
+finished downloading SNPS
+finished downloading SYY
+finished downloading TROW
+finished downloading TGT
+finished downloading TEL
+failed to download  FTI P%2FE ratio
+finished downloading FTI
+finished downloading TGNA
+finished downloading TDC
+finished downloading TSO
+finished downloading TXN
+finished downloading TXT
+failed to download  TMO P%2FE ratio
+finished downloading TMO
+finished downloading TIF
+failed to download  TWX P%2FE ratio
+finished downloading TWX
+finished downloading TJX
+finished downloading TMK
+finished downloading TSS
+finished downloading TSCO
+finished downloading TDG
+finished downloading RIG
+finished downloading TRV
+finished downloading TRIP
+finished downloading FOXA
+finished downloading FOX
+finished downloading TSN
+finished downloading UDR
+finished downloading ULTA
+finished downloading USB
+finished downloading UA
+failed to download  UAA revenue
+failed to download  UAA employees
+failed to download  UAA net income
+failed to download  UAA shares outstanding
+failed to download  UAA P%2FE ratio
+finished downloading UAA
+finished downloading UNP
+failed to download  UAL revenue
+finished downloading UAL
+finished downloading UNH
+finished downloading UPS
+failed to download  URI shares outstanding
+finished downloading URI
+finished downloading UTX
+finished downloading UHS
+finished downloading UNM
+finished downloading VFC
+finished downloading VLO
+finished downloading VAR
+failed to download  VTR employees
+finished downloading VTR
+failed to download  VRSN P%2FE ratio
+finished downloading VRSN
+failed to download  VRSK revenue
+failed to download  VRSK employees
+failed to download  VRSK net income
+finished downloading VRSK
+finished downloading VZ
+failed to download  VRTX P%2FE ratio
+finished downloading VRTX
+finished downloading VIAB
+failed to download  V revenue
+failed to download  V employees
+failed to download  V net income
+failed to download  V shares outstanding
+failed to download  V P%2FE ratio
+finished downloading V
+finished downloading VNO
+finished downloading VMC
+finished downloading WMT
+finished downloading WBA
+failed to download  DIS revenue
+failed to download  DIS net income
+failed to download  DIS P%2FE ratio
+finished downloading DIS
+finished downloading WM
+finished downloading WAT
+finished downloading WEC
+finished downloading WFC
+finished downloading HCN
+finished downloading WDC
+finished downloading WU
+finished downloading WRK
+failed to download  WY employees
+finished downloading WY
+finished downloading WHR
+finished downloading WFM
+failed to download  WMB P%2FE ratio
+finished downloading WMB
+finished downloading WLTW
+finished downloading WYN
+finished downloading WYNN
+finished downloading XEL
+failed to download  XRX revenue
+finished downloading XRX
+finished downloading XLNX
+finished downloading XL
+finished downloading XYL
+failed to download  YHOO P%2FE ratio
+finished downloading YHOO
+failed to download  YUM revenue
+failed to download  YUM employees
+finished downloading YUM
+finished downloading ZBH
+finished downloading ZION
+failed to download  ZTS revenue
+finished downloading ZTS
+[Finished in 74788.9s]
